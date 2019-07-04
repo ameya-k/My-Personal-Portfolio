@@ -25,16 +25,19 @@ class Contact extends Component {
             <div className='contact-column-list'>
               <List>
                 <ListItem>
-                  <ListItemContent icon='person'>
-                    Bryan Cranston
+                  <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
+                  <i className='fa fa-phone-square' aria-hidden='true'></i>
+                    (323) 540-7914
                   </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <ListItemContent icon='person'>Aaron Paul</ListItemContent>
+                  <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
+                  <i className='fa fa-envelope' aria-hidden='true'></i>
+                    abkulkar@usc.edu
+                  </ListItemContent>
                 </ListItem>
-                <ListItem>
-                  <ListItemContent icon='person'>Bob Odenkirk</ListItemContent>
-                </ListItem>
+
               </List>
             </div>
           </Cell>
