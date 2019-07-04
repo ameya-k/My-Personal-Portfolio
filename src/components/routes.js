@@ -9,6 +9,7 @@ import {Switch,Route} from 'react-router-dom';
 const Routes= ()=>(
     <Switch>
         <Route exact path="/" component={Homepage} />
+        <Route path="/home" component={Homepage} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
