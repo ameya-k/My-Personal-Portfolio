@@ -17,11 +17,11 @@ class Homepage extends Component {
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
                 {/* GitHub icon */}
-                <a href="https://www.linkedin.com/in/ameyabkulkarni/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/ameya-k" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 {/* Twitter icon */}
-                <a href="https://www.linkedin.com/in/ameyabkulkarni/" rel="noopener noreferrer" target="_blank">
+                <a href="https:/twitter.com/whiz_ameya" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
                 
