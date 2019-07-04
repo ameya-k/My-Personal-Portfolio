@@ -20,7 +20,8 @@ class Projects extends Component {
   changeCategories () {
     if (this.state.activeTab == 0) {
       return (
-        <div>
+        <div className='projects-display-grid'>
+          {/* Ebay Product Search */}
           <Card shadow={5} style={{ minWidth: '440', margin: 'auto' }}>
             <CardTitle
               style={{
@@ -38,7 +39,40 @@ class Projects extends Component {
               tech course
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+              <Button
+                colored
+                href='https://github.com/usc-csci571/homework8-ameya-k.git'
+              >
+                Github
+              </Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          {/* Php product search */}
+          <Card shadow={5} style={{ minWidth: '440', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: 'black',
+                height: '176px',
+                background:
+                  'url(https://marketing-prod.global.ssl.fastly.net/sites/default/files/inline-images/Code_Write_Brackets_Hand_Open.jpg) center/cover'
+              }}
+            >
+              Angular Based Ebay Product Seacrh Application
+            </CardTitle>
+
+            <CardText>
+              Ebay product search application created as a part of CSCI 571 Web
+              tech course
+            </CardText>
+            <CardActions border>
+              <Button
+                colored
+                href='https://github.com/usc-csci571/homework8-ameya-k.git'
+              >
+                Github
+              </Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -79,13 +113,11 @@ class Projects extends Component {
           <Tab>Information Retrieval</Tab>
         </Tabs>
 
-        <section className='project-display-grid'>
-          <Grid className='projects-display-grid'>
-            <Cell col={12}>
-              <div className='project-content'>{this.changeCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
+        <Grid>
+          <Cell col={12}>
+            <div className='project-content'>{this.changeCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     )
   }
