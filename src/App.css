@@ -6,6 +6,8 @@
 
 }
 
+/*home page styles */
+
 .homePageGrid{
   background: #74ebd5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -65,11 +67,13 @@
   padding: 8px;
 }
 
-
+/*project page styles */
 .projects-display-grid{
   display:flex;
 }
 
+
+/* Contact page styles */
 .contact-div{
   margin: auto;
 
@@ -109,4 +113,12 @@
 .contact-column-list i{
   padding-right: 5rem;
   font-size: 66px;
+}
+
+/* Resume page styles */
+
+.resume-right{
+  background: #27221f;
+  color: white;
+  padding: 2em;
 }
