@@ -1,37 +1,45 @@
-import React from 'react';
-import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
-import './App.css';
-import Routes from  './components/routes'
-import {Link} from 'react-router-dom';
-function App() {
+import React from 'react'
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
+import './App.css'
+import Routes from './components/routes'
+import { Link } from 'react-router-dom'
+function App () {
   return (
-<div className="demo-big-content">
-    <Layout>
-        <Header className="navbar-style" title="Ameya Kulkarni" scroll>
-            <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/resume">Resume</Link>
-                
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
+    <div className='demo-big-content'>
+      <Layout>
+        <Header
+          className='navbar-style'
+          title={
+            <Link style={{ textDecoration: 'none', color: 'white' }} to='/'>
+            Ameya Kulkarni
+            </Link>
+          }
+          scroll
+        >
+          <Navigation>
+            <Link to='/home'>Home</Link>
+            <Link to='/resume'>Resume</Link>
+
+            <Link to='/projects'>Projects</Link>
+            <Link to='/contact'>Contact</Link>
+          </Navigation>
         </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/resume">Resume</Link>
-                
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
+        <Drawer title='Title'>
+          <Navigation>
+            <Link to='/home'>Home</Link>
+            <Link to='/resume'>Resume</Link>
+
+            <Link to='/projects'>Projects</Link>
+            <Link to='/contact'>Contact</Link>
+          </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
-            <Routes />
+          <div className='page-content' />
+          <Routes />
         </Content>
-    </Layout>
-</div>
-  );
+      </Layout>
+    </div>
+  )
 }
 
-export default App;
+export default App

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import ResumeEducation from './ResumeEducation'
 import ResumeExperience from './ResumeExperience';
+import ResumeSkills from './ResumeSkills';
 class Resume extends Component {
   render () {
     return (
@@ -51,6 +52,36 @@ class Resume extends Component {
             jobName='Reach Technologies, Bangalore'
             jobTitle='Full Stack Development Intern'
             />
+            <hr style={{ borderTop: '2px solid #e22947' }} />
+            <h2>Skills</h2>
+            <ResumeSkills
+            skill='Java Programming'
+            strengthPercent={90}
+             />
+            <ResumeSkills
+            skill='JavaScript'
+            strengthPercent={90}
+             />
+            <ResumeSkills
+            skill='PHP'
+            strengthPercent={80}
+             />
+            <ResumeSkills
+            skill='NodeJS'
+            strengthPercent={70}
+             />
+            <ResumeSkills
+            skill='Angular'
+            strengthPercent={70}
+             />
+            <ResumeSkills
+            skill='React'
+            strengthPercent={60}
+             />
+            <ResumeSkills
+            skill='Mobile Development(Android)'
+            strengthPercent={60}
+             />
 
           </Cell>
         </Grid>

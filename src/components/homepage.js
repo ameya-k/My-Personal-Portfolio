@@ -10,7 +10,7 @@ class Homepage extends Component {
             <div className='headline'>
               <h1>Software Developer</h1>
               <hr />
-              <p>HTML/CSS | Bootstrap | JavaScript | Angular | React | NodeJS | Express | PHP | Mobile Development | SQL | Solr | GCP | AWS |</p>
+              <p>Java Development| HTML/CSS | Bootstrap | JavaScript | Angular | React | NodeJS | Express | PHP | Mobile Development | SQL | Solr | GCP | AWS |</p>
               <div className="social-media-links">
                 {/* LinkedIn icon */}
                 <a href="https://www.linkedin.com/in/ameyabkulkarni/" rel="noopener noreferrer" target="_blank">
