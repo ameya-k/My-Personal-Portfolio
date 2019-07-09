@@ -1,17 +1,33 @@
 .navbar-style{
-  background: #74ebd5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+    background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
 
+}
+
+.mdl-navigation__link{
+  color: black !important;
+}
+
+.mdl-layout__header-row  {
+  color: black !important;
+}
+
+.mdl-layout__drawer-button i{
+  color: black !important;
 }
 
 /*home page styles */
 
 .homePageGrid{
-  background: #74ebd5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   width: 100%;
   height: 100%;
@@ -24,6 +40,7 @@
 .myImage{
   height:250px;
   padding-top: 4em;
+  padding-bottom: 10px;
 }
 
 .headline{
@@ -35,10 +52,23 @@
   border-radius: 10px;
 }
 
+
+
+
+
 .headline h1{
   font-size: 70px;
   font-weight: bold;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    
+  }
 }
 
 .headline hr{
@@ -59,6 +89,13 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+   .social-media-links{
+     justify-content: center
+     
+   }
 }
 
 .social-media-links i{
@@ -111,9 +148,22 @@
 }
 
 .contact-column-list i{
-  padding-right: 5rem;
-  font-size: 66px;
+  padding-right: 3rem;
+  font-size: 46px;
 }
+
+.contact-column-list p{
+  font-size: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  span{
+    font-size: 23px
+  }
+}
+
 
 /* Resume page styles */
 

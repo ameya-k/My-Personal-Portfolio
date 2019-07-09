@@ -11,7 +11,7 @@ function App () {
           className='navbar-style'
           title={
             <Link style={{ textDecoration: 'none', color: 'white' }} to='/'>
-            Ameya Kulkarni
+              Ameya Kulkarni
             </Link>
           }
           scroll
@@ -24,7 +24,13 @@ function App () {
             <Link to='/contact'>Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title='Title'>
+        <Drawer
+          title={
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
+              Ameya Kulkarni
+            </Link>
+          }
+        >
           <Navigation>
             <Link to='/home'>Home</Link>
             <Link to='/resume'>Resume</Link>
