@@ -33,10 +33,10 @@ class Projects extends Component {
                   Web Development | Mobile Development
                 </h6>
                 <a href='#' class='card-link'>
-                  Card link
+                  Github Link
                 </a>
                 <a href='#' class='card-link'>
-                  Another link
+                  Live Link
                 </a>
                 <p class='card-text'>
                   I developed this project as a part of the coursework of CSCI
@@ -67,11 +67,9 @@ class Projects extends Component {
                   Web Development | Natural Language Processing | Databases
                 </h6>
                 <a href='#' class='card-link'>
-                  Card link
+                  Github Link
                 </a>
-                <a href='#' class='card-link'>
-                  Another link
-                </a>
+
                 <p class='card-text'>
                   Developed a Fitness Chatbot that recommended exercises the
                   user can perform when he is in the Gym. The bot provides the
@@ -99,25 +97,49 @@ class Projects extends Component {
               }}
             >
               <div class='card-body'>
+                <h5 class='card-title'>Portfolio Website</h5>
+                <h6 class='card-subtitle mb-2 text-muted'>
+                  Web Development | Natural Language Processing | Databases
+                </h6>
+                <a href='#' class='card-link'>
+                  Github Link
+                </a>
+
+                <p class='card-text'>
+                  Developed this portfolio website using React.js. Used the react-mdl library components and Bootstrap for 
+                  making the frontend of the website. Used Amazon AWS in order to host the website.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class='col-sm'>
+            <div
+              class='card topcard'
+              style={{
+                width: '30rem',
+                height: '17rem',
+                margin: '20px',
+                overflowY: 'scroll'
+              }}
+            >
+              <div class='card-body'>
                 <h5 class='card-title'>
                   Mini Search Engine Using Apache Solr and Lucene
                 </h5>
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Information Retrieval | Web Development
                 </h6>
-                <a href='#' class='card-link'>
-                  Card link
-                </a>
-                <a href='#' class='card-link'>
-                  Another link
-                </a>
+
                 <p class='card-text'>
-                  Developed a mini search Engine using Apache Solr and Apache Lucene as a part of the coursework
-                  for CSCI 572 Information Retrieval and Web Search engines coursework at USC. I used the data scrapped
-                  from Yahoo News website and used Lucene to build an inverted Index on top of it to enable querying.
-                  I used Apache Solr along with PHP to query the index based on users search terms and display results.
-                  In addition to searching, I leveraged Peter Norvig's spelling correction algorithm to provide
-                  automatc spelling correction for users query terms.
+                  Developed a mini search Engine using Apache Solr and Apache
+                  Lucene as a part of the coursework for CSCI 572 Information
+                  Retrieval and Web Search engines coursework at USC. I used the
+                  data scrapped from Yahoo News website and used Lucene to build
+                  an inverted Index on top of it to enable querying. I used
+                  Apache Solr along with PHP to query the index based on users
+                  search terms and display results. In addition to searching, I
+                  leveraged Peter Norvig's spelling correction algorithm to
+                  provide automatc spelling correction for users query terms.
                 </p>
               </div>
             </div>
@@ -137,20 +159,18 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Machine Learning | Text Processing
                 </h6>
-                <a href='#' class='card-link'>
-                  Card link
-                </a>
-                <a href='#' class='card-link'>
-                  Another link
-                </a>                
-                <p class='card-text'>
-                  Developed a sentiment analysis tool that fetched tweets from twitter based on the search term provided
-                  by the user and classified them into postive/negative polarity. The tool then provided users with a summarized 
-                  result of sentiment on twitter for the particular search term. I implemented two approaches for the project: <br />
-                  1.Machine Learning approach using Naive Bayes Classifier which gave me an accuracy of 65%
-                  2.Lexicon based approach using VADER(Valance aware dictionary and sentiment Reasoner)
-                </p>
 
+                <p class='card-text'>
+                  Developed a sentiment analysis tool that fetched tweets from
+                  twitter based on the search term provided by the user and
+                  classified them into postive/negative polarity. The tool then
+                  provided users with a summarized result of sentiment on
+                  twitter for the particular search term. I implemented two
+                  approaches for the project: <br />
+                  1.Machine Learning approach using Naive Bayes Classifier which
+                  gave me an accuracy of 65% 2.Lexicon based approach using
+                  VADER(Valance aware dictionary and sentiment Reasoner)
+                </p>
               </div>
             </div>
           </div>
@@ -167,21 +187,21 @@ class Projects extends Component {
               <div class='card-body'>
                 <h5 class='card-title'>College Department Feedback Portal</h5>
                 <h6 class='card-subtitle mb-2 text-muted'>
-                  ASP.NET Development
+                  ASP.NET Development | SQL
                 </h6>
-                <a href='#' class='card-link'>
-                  Card link
-                </a>
-                <a href='#' class='card-link'>
-                  Another link
-                </a>
-                <p class='card-text'>
-                  Developed a web application using ASP.NET framework for students of the Computer Science Department
-                  of my undergraduate college to provide feedback and ratings for the department organized events.
-                  The application eliminated the need for paper based feedback and digitized the process. I used bootstrap
-                  framework to develop the frontend and leverage a MySQL database at the backend to store the feedback data.
-                </p>
 
+                <p class='card-text'>
+                  I built an Android application to help farmers of my home
+                  village by providing them information about various types of
+                  crop diseases and regional weather forecasts. Used the SQLite
+                  database at the backend for storing crop information and used
+                  the Android local storage to save farmer specific information
+                  in the application. The user interface was designedin the
+                  local language for the ease of use of the application for the
+                  farmsers.I also Coordinated with the local government
+                  authorities to obtain village specific crop disease data for
+                  the application.
+                </p>
               </div>
             </div>
           </div>
@@ -196,16 +216,11 @@ class Projects extends Component {
               }}
             >
               <div class='card-body'>
-                <h5 class='card-title'>Ebay Product Search Application</h5>
+                <h5 class='card-title'>FarmHelp</h5>
                 <h6 class='card-subtitle mb-2 text-muted'>
-                  Web and Mobile Development
+                  Mobile Development
                 </h6>
-                <a href='#' class='card-link'>
-                  Card link
-                </a>
-                <a href='#' class='card-link'>
-                  Another link
-                </a>
+
                 <p class='card-text'>
                   I developed this project as a part of the coursework of CSCI
                   571 Web Technologies course at USC. It is a web application
