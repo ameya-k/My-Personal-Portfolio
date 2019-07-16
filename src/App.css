@@ -177,7 +177,21 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 }
 }
 
+.projectCard{
+  width: '30rem';
+  height: '17rem';
+  margin: '20px';
+  overflowY: 'scroll';  
+}
 
+@media only screen and (max-width: 768px) {
+  .projectCard{
+    width: '20rem';
+    height: '15rem';
+    margin: '20px';
+    overflowY: 'scroll';  
+  }
+  }
 
 /* Resume page styles */
 
@@ -192,6 +206,10 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   .topcard{
     margin-top: 45px;
     margin-left: 19px;
+    width: '20rem' !important;
+    height: '15rem' !important;
+    margin: '20px';
+    overflowY: 'scroll'; 
 
   }
 }
