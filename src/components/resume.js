@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import ResumeEducation from './ResumeEducation'
-import ResumeExperience from './ResumeExperience';
-import ResumeSkills from './ResumeSkills';
+import ResumeExperience from './ResumeExperience'
+import ResumeSkills from './ResumeSkills'
 class Resume extends Component {
   render () {
     return (
@@ -46,43 +46,29 @@ class Resume extends Component {
             />
             <hr style={{ borderTop: '2px solid #e22947' }} />
             <h2>Experience</h2>
-            <ResumeExperience 
-            startYear={'June 2019'}
-            endYear={'July 2019'}
-            jobName='Reach Technologies, Bangalore'
-            jobTitle='Full Stack Development Intern'
+            <ResumeExperience
+              startYear={'June 2019'}
+              endYear={'July 2019'}
+              jobName='Reach Technologies, Bangalore'
+              jobTitle='Full Stack Development Intern'
             />
             <hr style={{ borderTop: '2px solid #e22947' }} />
             <h2>Skills</h2>
+            <ResumeSkills skill='Java Programming' strengthPercent={90} />
+            <ResumeSkills skill='JavaScript' strengthPercent={80} />
+            <ResumeSkills skill='Cloud Platforms' strengthPercent={60} />
+            <ResumeSkills skill='PHP' strengthPercent={70} />
+            <ResumeSkills skill='NodeJS' strengthPercent={70} />
+            <ResumeSkills skill='Angular' strengthPercent={70} />
+            <ResumeSkills skill='React' strengthPercent={60} />
+            <ResumeSkills skill='Machine Learning' strengthPercent={50} />
+            <ResumeSkills skill='Python' strengthPercent={50} />
+            <ResumeSkills skill='Databases' strengthPercent={75} />
             <ResumeSkills
-            skill='Java Programming'
-            strengthPercent={90}
-             />
-            <ResumeSkills
-            skill='JavaScript'
-            strengthPercent={90}
-             />
-            <ResumeSkills
-            skill='PHP'
-            strengthPercent={80}
-             />
-            <ResumeSkills
-            skill='NodeJS'
-            strengthPercent={70}
-             />
-            <ResumeSkills
-            skill='Angular'
-            strengthPercent={70}
-             />
-            <ResumeSkills
-            skill='React'
-            strengthPercent={60}
-             />
-            <ResumeSkills
-            skill='Mobile Development(Android)'
-            strengthPercent={60}
-             />
-
+              skill='Mobile Development(Android)'
+              strengthPercent={60}
+            />
+            <ResumeSkills skill='Web Frontend frameworks' strengthPercent={65} />
           </Cell>
         </Grid>
       </div>
