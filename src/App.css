@@ -182,8 +182,8 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 /* Resume page styles */
 
 .resume-right{
-  background: #27221f;
-  color: white;
+  background: #E2E2E2;
+  color: black;
   padding: 2em;
 }
 

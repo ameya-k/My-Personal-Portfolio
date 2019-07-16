@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Ameya Kulkarni</h2>
             <img
-              src={require('../assets/avatarPic.png')}
+              src={require('../assets/finalAvatar.png')}
               className='myImage'
               style={{ padding: '0' }}
             />
