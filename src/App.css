@@ -162,7 +162,21 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   span{
     font-size: 23px
   }
+  .mdl-list__item{
+    padding: 5px !important
+  }
 }
+
+.projectsNormal{
+  margin: auto
+}
+
+@media only screen and (max-width: 768px) {
+.container{
+  padding-left: 30px
+}
+}
+
 
 
 /* Resume page styles */
@@ -171,4 +185,13 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   background: #27221f;
   color: white;
   padding: 2em;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .topcard{
+    margin-top: 45px;
+    margin-left: 19px;
+
+  }
 }

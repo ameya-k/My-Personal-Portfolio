@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Ameya Kulkarni</h2>
             <img
-              src={require('../assets/myAvatar.png')}
+              src={require('../assets/avatarPic.png')}
               className='myImage'
               style={{ padding: '0' }}
             />
@@ -33,8 +33,10 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
+                  <div style={{display:'inline',float:'left'}}>
                   <i className='fa fa-envelope' aria-hidden='true'></i>
                     abkulkar@usc.edu
+                    </div>
                   </ListItemContent>
                 </ListItem>
 

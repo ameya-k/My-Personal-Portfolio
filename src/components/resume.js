@@ -11,7 +11,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: 'center' }}>
               <img
-                src={require('../assets/myAvatar.png')}
+                src={require('../assets/avatarPic.png')}
                 className='myImage'
                 alt='Ameya Avatar'
               />
