@@ -15,8 +15,7 @@ class Contact extends Component {
             />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
               Graduate Computer Science Student at University of Southern
-              California. Actively looking for full time job opportunities
-              starting Summer 2020.
+              California. Actively looking for full time job opportunities.
             </p>
           </Cell>
           <Cell col={6}>
