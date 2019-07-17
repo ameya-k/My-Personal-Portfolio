@@ -53,7 +53,7 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 { @supports (-webkit-appearance:none) {
   .homepageContainer{
   
-    background:-webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);;
+   
     position: fixed;
     background-size: cover;
   }
