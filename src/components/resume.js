@@ -54,7 +54,7 @@ class Resume extends Component {
               startYear={'June 2019'}
               endYear={'July 2019'}
               jobName='Reach Technologies'
-              jobTitle='Full Stack Development Intern'
+              jobTitle='Software Development Intern'
               location='Bangalore,India'
             />
             <hr style={{ borderTop: '2px solid black' }} />
