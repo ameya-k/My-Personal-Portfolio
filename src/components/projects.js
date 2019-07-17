@@ -15,7 +15,7 @@ import {
 class Projects extends Component {
   render () {
     return (
-      <div class='container' style={{ margin: 'auto',width:'80%' }}>
+      <div class='container' style={{ margin: 'auto', width: '80%' }}>
         <div class='row'>
           <div class='col-sm-6'>
             <div
@@ -32,11 +32,17 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Web Development | Mobile Development
                 </h6>
-                <a href='https://github.com/ameya-k/Ebay-ProductSearch-Web-Application.git' class='card-link'>
-                  Github Link-Web Application
+                <a
+                  href='https://github.com/ameya-k/Ebay-ProductSearch-Web-Application.git'
+                  class='card-link'
+                >
+                  GitHub Link-Web Application
                 </a>
-                <a href='https://github.com/ameya-k/ProductSearch-Android.git' class='card-link'>
-                  Github Link-Mobile Application
+                <a
+                  href='https://github.com/ameya-k/ProductSearch-Android.git'
+                  class='card-link'
+                >
+                  GitHub Link-Mobile Application
                 </a>
                 <p class='card-text'>
                   I developed this project as a part of the coursework of CSCI
@@ -66,8 +72,11 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Web Development | Natural Language Processing | Databases
                 </h6>
-                <a href='https://github.com/ameya-k/ReactFitnessBot.git' class='card-link'>
-                  Github Link
+                <a
+                  href='https://github.com/ameya-k/ReactFitnessBot.git'
+                  class='card-link'
+                >
+                  GitHub Link
                 </a>
 
                 <p class='card-text'>
@@ -101,13 +110,18 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Web Development | Natural Language Processing | Databases
                 </h6>
-                <a href='https://github.com/ameya-k/My-Personal-Portfolio.git' class='card-link'>
-                  Github Link
+                <a
+                  href='https://github.com/ameya-k/My-Personal-Portfolio.git'
+                  class='card-link'
+                >
+                  GitHub Link
                 </a>
 
                 <p class='card-text'>
-                  Developed this portfolio website using React.js. Used the react-mdl library components and Bootstrap for 
-                  making the frontend of the website. Used Amazon AWS in order to host the website.
+                  Developed this portfolio website using React.js. Used the
+                  react-mdl library components and Bootstrap for making the
+                  frontend of the website. Used Amazon AWS in order to host the
+                  website.
                 </p>
               </div>
             </div>
@@ -168,7 +182,7 @@ class Projects extends Component {
                   twitter for the particular search term. I implemented two
                   approaches for the project: <br />
                   1.Machine Learning approach using Naive Bayes Classifier which
-                  gave me an accuracy of 65% 2.Lexicon based approach using
+                  gave me an accuracy of 65% <br />2.Lexicon based approach using
                   VADER(Valance aware dictionary and sentiment Reasoner)
                 </p>
               </div>
@@ -191,16 +205,10 @@ class Projects extends Component {
                 </h6>
 
                 <p class='card-text'>
-                  I built an Android application to help farmers of my home
-                  village by providing them information about various types of
-                  crop diseases and regional weather forecasts. Used the SQLite
-                  database at the backend for storing crop information and used
-                  the Android local storage to save farmer specific information
-                  in the application. The user interface was designedin the
-                  local language for the ease of use of the application for the
-                  farmsers.I also Coordinated with the local government
-                  authorities to obtain village specific crop disease data for
-                  the application.
+                Devloped a Web Application using the ASP.NET framework to provide digital feedback facility for 
+                events of the Computer Science department of my undergraduate college. The web application eliminated
+                the need for paper based feedback and thus provided an environment friendly approach to take the student
+                feedback. I used a SQL database to store the student feedback data for the backend of the web application.
                 </p>
               </div>
             </div>
@@ -222,14 +230,16 @@ class Projects extends Component {
                 </h6>
 
                 <p class='card-text'>
-                  I developed this project as a part of the coursework of CSCI
-                  571 Web Technologies course at USC. It is a web application
-                  developed using Angular 7 and Node.js that allows users to
-                  search for products available on the Ebay shopping platform.I
-                  used Node.js to create an express API in order to fetch and
-                  perform response validations from various API's like the Ebay
-                  API, Google Custom search API used in the application. I also
-                  developed a Mobile version of the same in Android using Java.
+                  I built an Android application to help farmers of my home
+                  village by providing them information about various types of
+                  crop diseases and regional weather forecasts. Used the SQLite
+                  database at the backend for storing crop information and used
+                  the Android local storage to save farmer specific information
+                  in the application. The user interface was designedin the
+                  local language for the ease of use of the application for the
+                  farmsers.I also Coordinated with the local government
+                  authorities to obtain village specific crop disease data for
+                  the application.
                 </p>
               </div>
             </div>

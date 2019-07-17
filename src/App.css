@@ -42,12 +42,23 @@ background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-2
 background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 }
 
-@media only screen and (max-height: 768px) {
-.homepageContainer{
+@media only screen and (max-height: 768px) and (min-resolution:.001dpcm) {
+  .selector:not(*:root),.homepageContainer{
   height: unset;
   background-size: cover;
 }
+
 } 
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+  .homepageContainer{
+  
+    background:-webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);;
+    position: fixed;
+    background-size: cover;
+  }
+}
+}
 
 
 .myImage{

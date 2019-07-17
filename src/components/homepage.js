@@ -3,9 +3,9 @@ import { Grid, Cell } from 'react-mdl'
 
 class Homepage extends Component {
   render () {
-    
+
     return (
-      <div className='homepageContainer' style={{ width: '100%', margin: 'auto'}}>
+      <div  id='hc' className='homepageContainer' style={{ width: '100%', margin: 'auto'}}>
         <Grid className='homePageGrid'>
           <Cell col={12}>
             <img src={require('../assets/finalAvatar.png')} className='myImage' alt="Ameya Kulkarni avatar"/>
