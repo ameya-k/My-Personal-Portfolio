@@ -53,7 +53,7 @@ class Contact extends Component {
             <div className='row' style={{justifyContent:'center'}}>
             <div  style={{ display: 'inline',justifyContent:'center' }}>
               <i className='fa fa-envelope' style={{fontSize:'30px'}} aria-hidden='true'></i>
-                    <span style={{fontSize:'30px',paddingLeft:'20px',fontFamily:'Anton'}}><a href='mail to:abkulkar@usc.edu'>abkulkar@usc.edu</a></span>
+                    <span style={{fontSize:'30px',paddingLeft:'20px',fontFamily:'Anton'}}><a href='mailto: abkulkar@usc.edu'>abkulkar@usc.edu</a></span>
             </div>
             </div>
           </Cell>
