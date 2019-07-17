@@ -15,13 +15,13 @@ import {
 class Projects extends Component {
   render () {
     return (
-      <div class='container' style={{ margin: 'auto' }}>
+      <div class='container' style={{ margin: 'auto',width:'80%' }}>
         <div class='row'>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
-              class='card topcard'
+              class='card topcard mycard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'
@@ -51,11 +51,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
               class='card topcard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'
@@ -86,11 +86,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
               class='card topcard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'
@@ -112,11 +112,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
               class='card topcard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'
@@ -144,11 +144,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
               class='card topcard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'
@@ -174,11 +174,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
               class='card topcard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'
@@ -205,11 +205,11 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class='col-sm'>
+          <div class='col-sm-6'>
             <div
               class='card topcard'
               style={{
-                width: '30rem',
+                width: '100%',
                 height: '17rem',
                 margin: '20px',
                 overflowY: 'scroll'

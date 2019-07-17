@@ -156,7 +156,14 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   font-size: 10px;
 }
 
-
+@media only screen and (max-width: 768px) {
+.mycard{
+  width: '100%' !important;
+   height: '17rem';
+  margin: '20px';
+  overflowY: 'scroll'
+}
+}
 
 @media only screen and (max-width: 768px) {
   span{
