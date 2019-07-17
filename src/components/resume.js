@@ -21,7 +21,7 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid black', width: '50%' }} />
             <p>
               I am a graduate Computer Science student at the University of Southern California, currently in my third semester.
-              In my masters' program I have studied courses in the domain of Databses, Algorithms and Web development so far. The coursework
+              In my masters' program I have studied courses in the domain of Databases, Algorithms and Web development so far. The coursework
               allows me to explore various facets of Computer Science and discover areas that pique my interest.
               <br />
               I am a avid sports lover and like to spend my free-time either on the field playing a sport or listening to some music.
@@ -39,7 +39,7 @@ class Resume extends Component {
               endYear={'June 2017'}
               universityName='Government College of Engineering, Aurangabad'
               degree='Bachelor of Engineering(B.E.) in Computer Science and Engineering'
-              location='Aurangabad,India'
+              location='Aurangabad, India'
             />
             <ResumeEducation
               startYear={'August 2018'}
@@ -55,7 +55,7 @@ class Resume extends Component {
               endYear={'July 2019'}
               jobName='Reach Technologies'
               jobTitle='Software Development Intern'
-              location='Bangalore,India'
+              location='Bangalore, India'
               project='-Developed the job search module for the India Clap Web Application which is an online learning and job search portal for Medium and small scale industries
                        -Used React.js and bootstrap to develop the frontend of the job search module
                        -Incorporated the Google Jobs API to provide relevant results based on the search term and location of the user
