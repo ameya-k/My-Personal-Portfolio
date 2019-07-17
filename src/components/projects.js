@@ -32,11 +32,11 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Web Development | Mobile Development
                 </h6>
-                <a href='#' class='card-link'>
-                  Github Link
+                <a href='https://github.com/ameya-k/Ebay-ProductSearch-Web-Application.git' class='card-link'>
+                  Github Link-Web Application
                 </a>
-                <a href='#' class='card-link'>
-                  Live Link
+                <a href='https://github.com/ameya-k/ProductSearch-Android.git' class='card-link'>
+                  Github Link-Mobile Application
                 </a>
                 <p class='card-text'>
                   I developed this project as a part of the coursework of CSCI
@@ -66,7 +66,7 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Web Development | Natural Language Processing | Databases
                 </h6>
-                <a href='#' class='card-link'>
+                <a href='https://github.com/ameya-k/ReactFitnessBot.git' class='card-link'>
                   Github Link
                 </a>
 
@@ -101,7 +101,7 @@ class Projects extends Component {
                 <h6 class='card-subtitle mb-2 text-muted'>
                   Web Development | Natural Language Processing | Databases
                 </h6>
-                <a href='#' class='card-link'>
+                <a href='https://github.com/ameya-k/My-Personal-Portfolio.git' class='card-link'>
                   Github Link
                 </a>
 
