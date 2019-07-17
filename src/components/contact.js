@@ -46,14 +46,14 @@ class Contact extends Component {
             <div className='row ' style={{justifyContent:'center'}}>
             <div style={{ display: 'inline',justifyContent:'center' }}>
               <i className='fa fa-phone-square' style={{fontSize:'30px',margin:'auto'}} aria-hidden='true' />
-              <span  style={{fontSize:'30px',paddingLeft:'20px',marginRight:'50px',fontFamily:'Anton'}}>(323) 540-7914</span>
+              <span id='phspan' style={{fontSize:'30px',paddingLeft:'20px',marginRight:'50px',fontFamily:'Anton'}}>(323) 540-7914</span>
             </div>
             </div>
             <br />
             <div className='row' style={{justifyContent:'center'}}>
             <div  style={{ display: 'inline',justifyContent:'center' }}>
               <i className='fa fa-envelope' style={{fontSize:'30px'}} aria-hidden='true'></i>
-                    <span style={{fontSize:'30px',paddingLeft:'20px',fontFamily:'Anton'}}><a href='mailto: abkulkar@usc.edu'>abkulkar@usc.edu</a></span>
+                    <span id='emailspan' style={{fontSize:'30px',paddingLeft:'20px',fontFamily:'Anton'}}><a href='mailto: abkulkar@usc.edu'>abkulkar@usc.edu</a></span>
             </div>
             </div>
           </Cell>
