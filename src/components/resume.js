@@ -30,20 +30,20 @@ class Resume extends Component {
             <h5>Address</h5>
             <p>1226 W Adams Boulevard, Los Angeles, CA, 90007.</p>
             <h5>Email</h5>
-            <p>abkulkar@usc.edu</p>
+            <p><a href='mailto: abkulkar@usc.edu'>abkulkar@usc.edu</a></p>
           </Cell>
           <Cell col={8} className='resume-right'>
             <h2>Education</h2>
             <ResumeEducation
-              startYear={2013}
-              endYear={2017}
+              startYear={'July 2013'}
+              endYear={'June 2017'}
               universityName='Government College of Engineering, Aurangabad'
               degree='Bachelor of Engineering(B.E.) in Computer Science and Engineering'
               location='Aurangabad,India'
             />
             <ResumeEducation
-              startYear={2018}
-              endYear={'2020 (expected)'}
+              startYear={'August 2018'}
+              endYear={'May 2020'}
               universityName='University of Southern California'
               degree='Master of Science(M.S) in Computer Science'
               location='Los Angeles'
@@ -56,6 +56,10 @@ class Resume extends Component {
               jobName='Reach Technologies'
               jobTitle='Software Development Intern'
               location='Bangalore,India'
+              project='-Developed the job search module for the India Clap Web Application which is an online learning and job search portal for Medium and small scale industries
+                       -Used React.js and bootstrap to develop the frontend of the job search module
+                       -Incorporated the Google Jobs API to provide relevant results based on the search term and location of the user
+                       -Implemented a resilient API in Node.js to fetch results from the Google Jobs API and perform JSON response error handling.'
             />
             <hr style={{ borderTop: '2px solid black' }} />
             <h2>Skills</h2>
