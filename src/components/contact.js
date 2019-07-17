@@ -19,7 +19,7 @@ class Contact extends Component {
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            {/* <h2>Contact Me</h2>
             <hr />
             <div className='contact-column-list'>
               <List>
@@ -34,12 +34,27 @@ class Contact extends Component {
                   <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
                   <div style={{display:'inline',float:'left'}}>
                   <i className='fa fa-envelope' aria-hidden='true'></i>
-                    <a href='mailto: abkulkar@usc.edu'>abkulkar@usc.edu</a>
+                    <a href='mail to:abkulkar@usc.edu'>abkulkar@usc.edu</a>
                     </div>
                   </ListItemContent>
                 </ListItem>
 
               </List>
+            </div> */}
+            <h2>Contact Me</h2>
+            <br />
+            <div className='row ' style={{justifyContent:'center'}}>
+            <div style={{ display: 'inline',justifyContent:'center' }}>
+              <i className='fa fa-phone-square' style={{fontSize:'30px',margin:'auto'}} aria-hidden='true' />
+              <span  style={{fontSize:'30px',paddingLeft:'20px',marginRight:'50px',fontFamily:'Anton'}}>(323) 540-7914</span>
+            </div>
+            </div>
+            <br />
+            <div className='row' style={{justifyContent:'center'}}>
+            <div  style={{ display: 'inline',justifyContent:'center' }}>
+              <i className='fa fa-envelope' style={{fontSize:'30px'}} aria-hidden='true'></i>
+                    <span style={{fontSize:'30px',paddingLeft:'20px',fontFamily:'Anton'}}><a href='mail to:abkulkar@usc.edu'>abkulkar@usc.edu</a></span>
+            </div>
             </div>
           </Cell>
         </Grid>
